@@ -6,7 +6,7 @@ body {
   background-color: white;
   color: black;
   font-family: Verdana;
-  background-image: url('/public/src/img/psychbg4.gif');
+  background-image: url('./src/img/psychbg4.gif');
   background-size: cover;
   background-position: center;
   background-repeat: repeat;

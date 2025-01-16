@@ -1,13 +1,18 @@
 body {
+  margin: 0;
+  overflow: hidden;
   background-color: white;
   color: black;
   font-family: Verdana;
-  background-image: url('./src/img/psychbg4.gif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
   height: 100%;  
   text-align: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 p {

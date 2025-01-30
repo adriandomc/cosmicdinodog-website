@@ -25,7 +25,7 @@ function draw() {
 
   // Dinoperro
   push();
-  translate(0, 0, 100);
+  translate(0, 0, 25);
   imageMode(CENTER);
   image(imgDino, 0, 0, imgDino.width * 0.8, imgDino.height * 0.8);
   pop();
